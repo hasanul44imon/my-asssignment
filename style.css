@@ -1,0 +1,24 @@
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  /* banner styles */
+  .banner{
+    display: flex;
+    justify-content: center;
+}
+  .banner-content{
+    max-width: 1280px;
+    max-height: 50;
+  }
+  .banner-title{
+ font-weight: normal;
+ font-size: x-small;
+  }
+  .banner-profile-pic{
+   position: top left, bottom;
+
+  }
+    
+  
