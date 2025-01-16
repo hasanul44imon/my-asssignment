@@ -1,24 +1,152 @@
 .fira-sans-thin {
+   font-family: "Fira Sans", serif;
+    font-weight: normal;
+    color: #0e0e0e;
+  }
+  /* Global Styles */
+  *{
+    padding: 0 20px;
+    margin: 0 auto;
     font-family: "Fira Sans", serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  /* banner styles */
-  .banner{
-    display: flex;
-    justify-content: center;
 }
-  .banner-content{
-    max-width: 1280px;
-    max-height: 50;
-  }
-  .banner-title{
- font-weight: normal;
- font-size: x-small;
-  }
-  .banner-profile-pic{
-   position: top left, bottom;
+body{
+  background-color: #C6E4D6;
 
+}
+  .container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
   }
-    
+  .description{
+    color: rgb(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .site-title{
+ font-weight: 700;
+ font-size: 32px;
+ line-height: 38px;
+  }
+  .btn{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 10px;
+    color: white;
+    background-color: #006A50;
+    padding: 34px 17px 34px 17px;
+    border: 1px solid;
+    border-radius: 8px;
+  }
+  .title{
+    font-size: 50px;
+    font-weight: 700px;
+    line-height: 30;
+  }
+  .sub-title{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+  }
+  /* header */
+  header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+  }
+    /* Hero section */
+    .hero-box{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 70px;
+      padding: 85px 65px;
+      margin-top: 22px;
+    }
+    .hero-box .hero-content{
+      width: 600px;
+    }
+    body {
+      font-family: sans-serif;
+  }
+  .pillar-cards{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    gap: 25px;
+  }
+  .heading h1{
+    font-size: bold 40px;
+    text-align: center;
+    margin: 24px 0 12px;
+    margin-bottom: 20px;
+    padding-top: 80px;
+  }
+  #pillar h1 {
+      text-align: center;
+      margin: 24px 0 12px;
+      margin-bottom: 20px;
+      padding-top: 80px;
+  }
   
+  .pillar {
+      background-color: #f0f0f0;
+      border-radius: 5px;
+      padding: 24px;
+      text-align: center;
+      width: 350px;
+  }
+  
+  .pillar img {
+      width: 50px;
+      margin-bottom: 10px;
+  }
+  #vision {
+    text-align: center;
+    margin: 20px;
+}
+.vision .description{
+  padding: 24px 0 32px;
+}
+
+.vision section{
+  padding: 80px 0 32px;
+}
+.vision .pillar-boxes{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  justify-content: space-between;
+}
+.pilar-1 {
+    background-color: #81B4FC;
+}
+
+.pillar-2 {
+    background-color: #C6E4D6;
+}
+.pillar-3 {
+background-color: #F7EBCF;
+}
+
+.box-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.quote {
+    border-left: 5px solid #ccc;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.quote blockquote {
+    margin-bottom: 5px;
+}
