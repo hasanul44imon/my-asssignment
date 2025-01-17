@@ -10,13 +10,14 @@
     font-family: "Fira Sans", serif;
 }
 body{
-  background-color: #C6E4D6;
+  background-color:#F5F5F5;
 
 }
   .container{
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 20px;
+    background-color: #C6E4D6;
   }
   .description{
     color: rgb(14, 14, 14, 0.7);
@@ -32,18 +33,18 @@ body{
   .btn{
     cursor: pointer;
     font-size: 18px;
-    font-weight: 500;
-    line-height: 10px;
+    font-weight: 600;
+    line-height: 22px;
     color: white;
     background-color: #006A50;
-    padding: 34px 17px 34px 17px;
+    padding: 16px 33px 16px 33px;
     border: 1px solid;
     border-radius: 8px;
   }
   .title{
-    font-size: 50px;
+    font-size: 32px;
     font-weight: 700px;
-    line-height: 30;
+    line-height: 38px;
   }
   .sub-title{
     font-size: 32px;
@@ -78,11 +79,11 @@ body{
     justify-content: space-between;
     gap: 25px;
   }
-  .heading h1{
+  .heading h1 .title{
     font-size: bold 40px;
     text-align: center;
     margin: 24px 0 12px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     padding-top: 80px;
   }
   #pillar h1 {
@@ -91,13 +92,18 @@ body{
       margin-bottom: 20px;
       padding-top: 80px;
   }
-  
+  .pillars{
+    padding-top: 80px;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
   .pillar {
       background-color: #f0f0f0;
       border-radius: 5px;
       padding: 24px;
       text-align: center;
       width: 350px;
+      gap: 24px;
   }
   
   .pillar img {
@@ -109,27 +115,37 @@ body{
     margin: 20px;
 }
 .vision .description{
-  padding: 24px 0 32px;
+  padding: 20px;
 }
 
-.vision section{
-  padding: 80px 0 32px;
+.visions{
+  max-width: 1280px;
+  margin: 0 auto;
 }
-.vision .pillar-boxes{
+
+.vision-boxes{
   display: flex;
   align-items: center;
   gap: 24px;
   justify-content: space-between;
+  padding: 24px 0 24px 0;
 }
-.pilar-1 {
+.pillar-1 {
     background-color: #81B4FC;
+    border-color: #81B4FC;
 }
 
 .pillar-2 {
     background-color: #C6E4D6;
+    border-color: #C6E4D6;
+}
+.vision-boxes img{
+  width: 62px;
+  height: 62px;
 }
 .pillar-3 {
 background-color: #F7EBCF;
+border-color: #F7EBCF;
 }
 
 .box-button {
@@ -146,7 +162,66 @@ background-color: #F7EBCF;
     padding-left: 10px;
     margin-top: 20px;
 }
-
+.vision-boxes .pillar-2 .box-button{
+  background-color: #09A15C;
+  border-color: #09A15C;
+}
+.vision-boxes .pillar-3 .box-button{
+  background-color:#FFC239;
+  border-color: #FFC239;
+}
+vision-boxes .pillar-1 .box-button{
+background-color: #5490F5;
+border-color: #5490F5;
+}
 .quote blockquote {
     margin-bottom: 5px;
+}
+.title-name{
+  font-weight: 20px;
+}
+
+section {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+h3{
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+p{
+  margin: 5px 0;
+
+}
+.news-item {
+  border: 1px solid #ccc;
+  padding: 48px;
+  margin-top: 32px;
+  padding-bottom: 24px;
+  gap: 24px;
+  align-items: center;
+  display: flex;
+  padding: 48px;
+  justify-content: space-between;
+}
+.news-source {
+  margin-bottom: 10px;
+  align-items: center;
+  display: flex;
+  margin-bottom: 10px;
+}
+  
+.news-source img {
+  width: 50px;
+  margin-right: 10px;
+  height: 50px;
+}
+
+.read-more {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #006A50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
 }
